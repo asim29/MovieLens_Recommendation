@@ -5,14 +5,14 @@ Learning and experimenting how to use Matrix Factorization (SVD) on a dataset in
 ## Getting Started
 
 Download or clone the repository, and simply run using python to see top-10 recommendations for both users and movies. Python 2.7 was used
+This will run the code for the algorithm using the SciPy library.
 ```
 python recommender.py
 ```
-This will run the code for the algorithm using the SciPy library.
+This will run the code for the algorithm using the Surprise library
 ```
 python surprise_recommender.py
 ```
-This will run the code for the algorithm using the Surprise library
 
 ### Prerequisites
 
@@ -20,6 +20,7 @@ The following libraries must be installed:
 * Pandas/Numpy
 * Surprise
 * SciPy
+
 I would recommend downloading Conda for all these libraries
 
 ### Contributing
